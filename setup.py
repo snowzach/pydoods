@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pydoods",
-    version="0.0.1",
+    version="1.0.0",
     author="Zach Brown",
     author_email="doods@prozach.org",
     description="A Python wrapper for the DOODS image detection service",

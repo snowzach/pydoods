@@ -1,4 +1,5 @@
 build
 dist
 pydoods.egg-info
+__pycache__
 
