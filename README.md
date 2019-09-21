@@ -10,7 +10,7 @@ import PyDOODS from pydoods
 
 try:
     pd = PyDOODS("http://docker:8080",
-                    auth_key="abc1234", timeout=5)
+                    auth_key="abc1234", timeout=90)
 except OSError as err:
     print("OS error: {0}".format(err))
     exit
