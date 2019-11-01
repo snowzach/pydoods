@@ -6,7 +6,7 @@ DOODS allows you to do remote object detection in images easily.
 A simple example using this library:
 
 ```
-import PyDOODS from pydoods
+from pydoods import PyDOODS 
 
 try:
     pd = PyDOODS("http://docker:8080",
