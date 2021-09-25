@@ -9,6 +9,9 @@ setuptools.setup(
     author="Zach Brown",
     author_email="doods@prozach.org",
     description="A Python wrapper for the DOODS image detection service",
+    install_requires=[
+        "requests",
+    ],
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/snowzach/pydoods",
